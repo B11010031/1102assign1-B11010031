@@ -88,8 +88,8 @@ void draw() {
     if(robotX-laserX>=160) //repeat
       {laserX=robotX;
       laserA=laserX+20;}
-    if(laserX-laserA>=20) //40
-    {laserX=laserA+20;}
+    if(laserX-laserA>=15) //40
+    {laserX=laserA+15;}
     
     
 }
